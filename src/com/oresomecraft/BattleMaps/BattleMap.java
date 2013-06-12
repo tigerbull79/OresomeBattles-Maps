@@ -35,11 +35,11 @@ public class BattleMap implements Listener {
         battles.bp.setFFASpawns(name, FFASpawns);
     }
 
-    public void addMap(String name) {
-        battles.addMap(name);
+    public void addMap(Abandoned City) {
+        battles.addMap(Abandoned city);
     }
 
-    public void addCreators(String name, String creators) {
+    public void addCreators(Abandoned City, tigerbull79) {
         battles.addCreators(name, creators);
     }
 
