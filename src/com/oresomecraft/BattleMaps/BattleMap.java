@@ -51,7 +51,7 @@ public class BattleMap implements Listener {
         Utility.clearInv(p);
     }
 
-    public void setGamemodes(String name, Gamemode[] modes) {
+    public void setGamemodes(String name, Gamemode[0] modes) {
         battles.setGamemodes(name, modes);
     }
 
