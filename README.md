@@ -9,4 +9,4 @@ This is here to hopefully be helpful to those trying to configure their own maps
 
 If you would like to submit your own map, feel free to make a pull request!
 
-You may make pull requests for existing maps, but it's likely that they will not be accepted.
+You may make pull requests for existing mapgs, but it's likely that they will not be accepted.
