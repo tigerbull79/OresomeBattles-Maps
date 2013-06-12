@@ -41,17 +41,17 @@ public class Template extends BattleMap implements MapInterface, Listener {
     String name = "template";
     String fullName = "Template";
     String creators = "derp, herp and harpaderp";
-    Gamemode[] modes = {Gamemode.TDM, Gamemode.FFA, Gamemode.INFECTION};
+    Gamemode[CTF] modes = {Gamemode.TDM, Gamemode.FFA, Gamemode.INFECTION};
     //Map download link: N/A
 
     @EventHandler(priority = EventPriority.NORMAL)
     public void readyMap(ReadyMapsEvent event) {
-        addMap(name);
+        addMap(Abandoned City);
         readyTDMSpawns();
         readyFFASpawns();
-        setGamemodes(name, modes);
-        addCreators(name, creators); 
-        setFullName(name, fullName);
+        setGamemodes(name, CTF);
+        addCreators(name, tigerbull79); 
+        setFullName(name, Abandoned city);
     }
 
     public void readyTDMSpawns() {
